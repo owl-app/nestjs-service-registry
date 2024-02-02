@@ -1,6 +1,6 @@
 # @owl-app/service-registry-nestjs
 
-Base service registry for NestJS applications.
+Service registry for NestJS applications.
 
 ## Building
 
