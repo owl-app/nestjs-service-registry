@@ -1,0 +1,26 @@
+{
+  "name": "@owl-app/service-registry",
+  "version": "0.0.1",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "source": "./src/index.ts",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "./dist"
+  ],
+
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "clean": "run -T rimraf ./dist"
+  },
+  "dependencies": {
+
+  },
+  "devDependencies": {
+    
+  },
+  "engines": {
+    "node": ">=20.0.0 <=20.x.x",
+    "npm": ">=6.0.0"
+  }
+}
