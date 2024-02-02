@@ -9,9 +9,11 @@
     "@nx/js": "17.3.0",
     "@tsconfig/node20": "^20.1.2",
     "@types/node": "20.0.0",
+    "lint-staged": "^15.2.1",
     "nx": "17.3.0",
     "prettier": "^3.2.4",
-    "typescript": "^5.3.3"
+    "typescript": "^5.3.3",
+    "find-up": "^7.0.0"
   },
   "workspaces": [
     "packages/*"
