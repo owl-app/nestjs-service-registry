@@ -7,11 +7,11 @@
   "dependencies": {},
   "devDependencies": {
     "@nx/js": "17.3.0",
+    "@tsconfig/node20": "^20.1.2",
     "@types/node": "20.0.0",
     "nx": "17.3.0",
     "prettier": "^3.2.4",
-    "typescript": "^5.3.3",
-    "@tsconfig/node20": "^20.1.2"
+    "typescript": "^5.3.3"
   },
   "workspaces": [
     "packages/*"

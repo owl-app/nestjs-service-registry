@@ -10,14 +10,15 @@
   ],
 
   "scripts": {
-    "build": "tsc -p tsconfig.build.json",
-    "clean": "run -T rimraf ./dist"
+    "build": "pack-up build",
+    "clean": "run -T rimraf ./dist",
+    "lint": "run -T eslint ."
   },
   "dependencies": {
 
   },
   "devDependencies": {
-    
+    "@strapi/pack-up": "^4.19.1"
   },
   "engines": {
     "node": ">=20.0.0 <=20.x.x",
