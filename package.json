@@ -2,20 +2,24 @@
   "name": "nestjs-service-registry",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
   "private": true,
-  "dependencies": {},
   "devDependencies": {
     "@nx/js": "17.3.0",
     "@tsconfig/node20": "^20.1.2",
     "@types/node": "20.0.0",
+    "@typescript-eslint/eslint-plugin": "^6.20.0",
+    "@typescript-eslint/parser": "^6.20.0",
+    "eslint": "^8.56.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-import": "^2.29.1",
+    "find-up": "^7.0.0",
     "lint-staged": "^15.2.1",
     "nx": "17.3.0",
     "prettier": "^3.2.4",
-    "typescript": "^5.3.3",
-    "find-up": "^7.0.0"
+    "typescript": "^5.3.3"
   },
   "workspaces": [
     "packages/*"
-  ]
+  ],
+  "packageManager": "yarn@4.0.1"
 }
